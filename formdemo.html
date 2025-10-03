@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM DEMO</title>
+</head>
+<body>
+    <form action="success.html">
+        <center>
+            <h2>
+        <caption> STUDENT REGISTRATION SYSTEM</caption>
+            <h2>
+        </center>
+
+      <label for="fn">Full Name:</label>
+      <input type="text" id="fn" name="firstname" required><br><br>
+      <label for="ln">Last Name:</label>
+      <input type="text" id="ln" name="lastname" required><br><br>
+
+      <label>Gender :</label>
+      <input type="radio" name="gender" value="male" required>Male
+       <input type="radio" name="gender" value="female" required>Female<br><br>
+
+       <label>Email:</label>
+       <input type="email" required><br><br>
+
+       <label>Contact:</label>
+       <input type="tel" pattern="[0-9]{10}" required><br><br>
+
+       <label>Date Of Birth:</label>
+       <input type="date" required><br><br>
+
+       <label>Address:</label>
+        <textarea rows="10" required></textarea><br><br>
+
+        <label>Languages Known:</label>
+        <input type="checkbox" value="Telugu" name="language">Telugu
+        <input type="checkbox" value="Hindi" name="language">Hindi
+        <input type="checkbox" value="English" name="language">English
+        <input type="checkbox" value="Tamil" name="language">Tamil
+        <br><br>
+
+        <label>Branch:</label>
+         <select>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="ME">ME</option>
+            <option value="CSIT">CSIT</option> 
+            <option value="CIVIL">CIVIL</option>
+            <option value="AIDS">AIDS</option>
+         </select><br><br>
+
+         <label>Upload Resume:</label>
+         <input type="file"><br><br>
+
+         <BUTTON>SUBMIT</BUTTON>
+    </form>
+</body>
+</html>
